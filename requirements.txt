@@ -1,0 +1,26 @@
+# Core Backend
+Django>=4.2
+djangorestframework
+
+# File Handling
+pandas
+openpyxl       # For Excel file support
+xlrd           # For older Excel file support
+sqlite-utils   # Optional, for advanced SQLite operations
+
+# Visualization
+matplotlib
+seaborn
+plotly         # For interactive plots
+
+# Preprocessing
+scikit-learn
+
+# CORS & Security
+django-cors-headers
+
+# API for React Frontend
+djangorestframework-csv
+python-decouple     # For environment variables
+gunicorn            # For production
+whitenoise          # Static file handling in prod
